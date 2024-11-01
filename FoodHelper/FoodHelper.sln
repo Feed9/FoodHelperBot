@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHelper", "FoodHelper\FoodHelper.csproj", "{F2F5D4A0-7153-4305-A870-8B0FD2E8F4A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoodHelper.Core", "FoodHelper.Core", "{DEDBE226-AF66-4309-BC31-E50A1019FA38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoodHelper.UseCases", "FoodHelper.UseCases", "{4A52FC09-542B-45B5-906D-F93D8D9F135E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoodHelper.Infrastructure", "FoodHelper.Infrastructure", "{8818D17F-3130-41E2-B388-F88FB8F0B121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoodHelper.Web", "FoodHelper.Web", "{2E8EDB93-6238-42AE-8D53-64052A94888C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoodHelper.TgBot", "FoodHelper.TgBot", "{8CAE0667-9538-4362-A21A-981BEF4C02C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodHelper.Entities", "FoodHelper.Entities\FoodHelper.Entities.csproj", "{D0837EC5-0581-407B-9176-3CC4ADE14CF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2F5D4A0-7153-4305-A870-8B0FD2E8F4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F5D4A0-7153-4305-A870-8B0FD2E8F4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F5D4A0-7153-4305-A870-8B0FD2E8F4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F5D4A0-7153-4305-A870-8B0FD2E8F4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0837EC5-0581-407B-9176-3CC4ADE14CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0837EC5-0581-407B-9176-3CC4ADE14CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0837EC5-0581-407B-9176-3CC4ADE14CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0837EC5-0581-407B-9176-3CC4ADE14CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0837EC5-0581-407B-9176-3CC4ADE14CF6} = {DEDBE226-AF66-4309-BC31-E50A1019FA38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19087F45-0417-4474-BCE1-4CAFB611C342}
+	EndGlobalSection
+EndGlobal
